@@ -1,23 +1,28 @@
-import logo from './logo.svg';
 import './App.css';
+import { useEffect } from 'react';
+import Header from './components/Header';
+import {SaveTheDate} from './components/SaveTheDate';
+import {Photos} from './components/Photos';
+import {Place} from './components/Place';
+import {Routine} from './components/Routine';
+import {Clothes} from './components/Clothes';
+import {Form} from './components/Form';
+import {Footer} from './components/Footer';
 
 function App() {
+  useEffect(() => {
+    document.title = 'Boda de Karla y Samuel | Invitación';
+  }, []);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container d-flex flex-column justify-content-center align-items-center">
+      <Header />
+      <SaveTheDate />
+      <Photos />
+      <Place />
+      <Routine />
+      <Clothes />
+      <Form />
+      <Footer />
     </div>
   );
 }
