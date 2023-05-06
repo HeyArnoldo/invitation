@@ -1,5 +1,6 @@
 import './App.css';
-import { useEffect } from 'react';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 import Header from './components/Header';
 import {SaveTheDate} from './components/SaveTheDate';
 import {Photos} from './components/Photos';
@@ -8,10 +9,11 @@ import {Routine} from './components/Routine';
 import {Clothes} from './components/Clothes';
 import {Form} from './components/Form';
 import {Footer} from './components/Footer';
+import { useEffect } from 'react';
 
 function App() {
   useEffect(() => {
-    document.title = 'Boda de Karla y Samuel | Invitación';
+    AOS.init({duration: 2000});
   }, []);
   return (
     <div className="container d-flex flex-column justify-content-center align-items-center">
@@ -19,9 +21,9 @@ function App() {
       <SaveTheDate />
       <Photos />
       <Place />
-      <Routine />
-      <Clothes />
-      <Form />
+      <Routine data-aos="fade-up" />
+      <Clothes data-aos="fade-up" />
+      <Form data-aos="fade-up" />
       <Footer />
     </div>
   );

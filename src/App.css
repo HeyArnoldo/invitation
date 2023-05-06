@@ -93,6 +93,55 @@ audio::-webkit-media-controls-timeline{
 }
 
 
+.photos{
+  width: 100vw;
+  background-color: #FDF5F1;
+}
+
+.photo{
+  width: 100%;
+}
+
+.place-container{
+  background-color: white;
+  width: 100vw;
+  font-family: cinzel;
+}
+
+.place-image{
+  border-radius: 50%;
+  color: #694C3D;
+  background-color: white;
+  border: #694C3D 1px solid;
+  font-size: 4.5rem;
+  max-width: 7rem;
+}
+
+.place-row{
+  align-self: center;
+  max-width: 30rem;
+}
+
+.place-text{
+  font-family: raleway;
+  font-weight: 700;
+  color: #694C3D;
+}
+
+.place-p{
+  font-family: raleway;
+  color: #694C3D;
+  font-weight: 300;
+  max-width: 15rem;
+}
+
+.raleway{
+  font-family: raleway;
+  color: #694C3D;
+  font-weight: 300;
+}
+
+
 .footer{
   background-color: #694C3D;
   width: 100vw;

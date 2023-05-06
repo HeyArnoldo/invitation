@@ -2,6 +2,6 @@ import React from 'react'
 
 export function Form() {
   return (
-    <div>Form</div>
+    <div className='py-5'>Form</div>
   )
 }

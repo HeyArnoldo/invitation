@@ -2,6 +2,8 @@ import React from 'react'
 
 export function Routine() {
   return (
-    <div>Routine</div>
+    <div className='py-5'>
+      Rutina
+    </div>
   )
 }
