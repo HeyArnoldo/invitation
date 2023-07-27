@@ -99,6 +99,8 @@ audio::-webkit-media-controls-timeline{
 }
 
 .photo{
+  aspect-ratio: 2/3;
+  overflow: hidden;
   width: 100%;
 }
 
@@ -139,6 +141,12 @@ audio::-webkit-media-controls-timeline{
   font-family: raleway;
   color: #694C3D;
   font-weight: 300;
+}
+
+
+.routine-image{
+  font-size: 10rem;
+  height: fit-content;
 }
 
 

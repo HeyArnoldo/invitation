@@ -10,7 +10,7 @@ export default function Counter() {
 
   return (
     <div>
-        <div className='container d-flex justify-content-center mb-5'>
+        <div className='container d-flex justify-content-center mb-5'  data-aos="fade-up" data-aos-delay="500">
             <div className='counter row text-center p-3'>
                 <div className="col-3 border-end">
                     <div className='counter__number'>{time.day}</div>

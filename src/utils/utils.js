@@ -1,7 +1,7 @@
 
 export function timeLeft(){
     let today = new Date();
-    let marryDay = new Date(2023, 4, 11, 0, 0, 0);
+    let marryDay = new Date(2023, 5, 11, 0, 0, 0);
     let timeLeft = (marryDay - today);
 
     let day = Math.floor(timeLeft / (1000 * 60 * 60 * 24));

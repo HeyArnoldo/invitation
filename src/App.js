@@ -16,14 +16,14 @@ function App() {
     AOS.init({duration: 2000});
   }, []);
   return (
-    <div className="container d-flex flex-column justify-content-center align-items-center">
+    <div className="d-flex flex-column justify-content-center align-items-center">
       <Header />
       <SaveTheDate />
       <Photos />
       <Place />
-      <Routine data-aos="fade-up" />
-      <Clothes data-aos="fade-up" />
-      <Form data-aos="fade-up" />
+      <Routine />
+      <Clothes />
+      <Form />
       <Footer />
     </div>
   );
