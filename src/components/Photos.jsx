@@ -7,15 +7,38 @@ export function Photos() {
   return (
     <div className='d-flex justify-content-center'>
       <div className='container photos row my-5' data-aos="fade-up">
-        <div className='col-4 d-flex justify-content-center px-1' data-aos="fade-up" data-aos-delay="0">
-          <img src={novios1} alt='Ericka y David 1' className='img-fluid photo'/>
-        </div>
-        <div className='col-4 d-flex justify-content-center px-1' data-aos="fade-up" data-aos-delay="500">
-          <img src={novios2} alt='Ericka y David 2' className='img-fluid photo' />
-        </div>
-        <div className='col-4 d-flex justify-content-center px-1' data-aos="fade-up" data-aos-delay="700">
-          <img src={novios3} alt='Ericka y David 3' className='img-fluid photo' />
-        </div>
+        {[novios1, novios2, novios3].map((src, idx) => (
+          <div
+            key={src}
+            className='col-4 d-flex justify-content-center px-1'
+            data-aos="fade-up"
+            data-aos-delay={idx === 0 ? "0" : idx === 1 ? "500" : "700"}
+          >
+            <div
+              style={{
+                width: '100%',
+                aspectRatio: '1/1',
+                background: '#f0f0f0',
+                display: 'flex',
+                alignItems: 'center',
+                justifyContent: 'center',
+                overflow: 'hidden',
+                borderRadius: '12px'
+              }}
+            >
+              <img
+                src={src}
+                alt={`David y Ericka ${idx + 1}`}
+                style={{
+                  width: '100%',
+                  height: '100%',
+                  objectFit: 'cover',
+                  background: '#f0f0f0'
+                }}
+              />
+            </div>
+          </div>
+        ))}
       </div>
     </div>
   )

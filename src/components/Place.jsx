@@ -16,13 +16,13 @@ export function Place() {
             <div className='place-image mx-auto mb-3'>
               <RiHeartsFill />
             </div>
-            <h2 className='fs-5'>Ceremonia Civil</h2>
+            <h2 className='fs-5'>Ceremonia</h2>
           </div>
           <div className='col-6 mb-5' data-aos="fade-up" data-aos-delay="0">
-            <h3 className='fw-light fs-1 place-text'>5:00pm</h3>
+            <h3 className='fw-light fs-1 place-text'>11:00am</h3>
           </div>
           <div className='col-6 mb-5' data-aos="fade-up" data-aos-delay="300">
-            <h3 className='fw-light fs-1 place-text'>5:30pm</h3>
+            <h3 className='fw-light fs-1 place-text'>11:30am</h3>
           </div>
           <div className='col-12' data-aos="fade-up" data-aos-delay="700">
             <a target="_blank" href="https://maps.app.goo.gl/XQCMFgqrNkoGaBMPA?g_st=aw" rel="noreferrer" className='text-decoration-none text-black '>

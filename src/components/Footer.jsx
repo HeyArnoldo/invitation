@@ -7,7 +7,7 @@ export function Footer() {
         <div className='container text-center footer-text'>
           Comparte con nosotros todas tus fotografías del evento, usando el siguiente #hashtag en todas tus publicaciones de Facebook e Instagram.
         </div>
-        <span className='hashtag my-4 mb-3'>#BodaEricka&David</span>
+        <span className='hashtag my-4 mb-3'>#BodaDavid&Ericka</span>
       </div>
     {/* <div>
       <div className='container d-flex justify-content-center align-items-center py-2'>
