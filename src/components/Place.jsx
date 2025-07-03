@@ -25,10 +25,10 @@ export function Place() {
             <h3 className='fw-light fs-1 place-text'>5:30pm</h3>
           </div>
           <div className='col-12' data-aos="fade-up" data-aos-delay="700">
-            <a target="_blank" href="https://goo.gl/maps/dekGaf1kZ1h435iG6" rel="noreferrer" className='text-decoration-none text-black '>
-              <span className='fs-5 mb-3'>Lago del Rey</span>
+            <a target="_blank" href="https://maps.app.goo.gl/XQCMFgqrNkoGaBMPA?g_st=aw" rel="noreferrer" className='text-decoration-none text-black '>
+              <span className='fs-5 mb-3'>Mz F Lte 10</span>
               <div className='d-flex justify-content-center mb-3'>
-                <p className='place-p'>Av Ramón Corona #5243, 45201 Guadalajara, Jal.</p>
+                <p className='place-p'>Calle los geranios El Inti</p>
               </div>
               <button className='btn btn-outline-dark rounded-pill raleway'>Ver Maps</button>
             </a>
