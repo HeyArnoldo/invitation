@@ -56,7 +56,7 @@ export function Form() {
           <div className='mb-3'>
             <textarea 
               className='form-control' 
-              placeholder='Mensaje (alergias, buenos deseos, etc.)'
+              placeholder='Mensaje (alegría, buenos deseos, etc.)'
               value={mensaje}
               onChange={(e) => setMensaje(e.target.value)}
             ></textarea>
