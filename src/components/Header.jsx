@@ -13,7 +13,7 @@ function Header() {
             <div className='d-flex justify-content-center' data-aos="fade-up">
                 <img src={logo} className="img-fluid logo" alt="logo"/>
             </div>
-            <h1 className='title pb-5' data-aos="fade-up" >Karla & Samuel</h1>
+            <h1 className='title pb-5' data-aos="fade-up" >Ericka & David</h1>
             <MusicPlayer />
             <div className='d-flex justify-content-center' data-aos="fade-up">
                 <p className='header-text pb-5'>Estás cordialmente invitado a este día tan especial en el que celebraremos nuestro matrimonio</p>
